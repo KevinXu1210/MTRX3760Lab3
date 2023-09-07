@@ -22,7 +22,9 @@ class COccupancyMapHash : public COccupancyMapBase
     // Check if a location is occupied
     bool CheckIsOccupied(std::pair<int,int> Location) override;
 
-
+  private:
+    // Set to store occupancy information
+    std::set<std::pair<int,int>> mOccupancyGrid;
 
 };
 
