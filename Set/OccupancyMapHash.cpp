@@ -1,3 +1,11 @@
+// Implementation of the OccupancyMapHash class
+// This class is a hash table based approach to occupancy map
+// The occupancy map is a 2D grid of boolean values
+// The occupancy map is implemented as a 2D vector of boolean values
+// The occupancy map is initialized to be all false
+// The occupancy map is updated by setting the location to be occupied
+// The occupancy map is queried by checking the occupancy status of a location
+
 #include "OccupancyMapHash.h"
 
 // Constructor

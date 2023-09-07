@@ -1,3 +1,5 @@
+// Header file for OccupancyMapHash.cpp
+
 #ifndef _OCCUPANCYMAPVECTOR_H
 #define _OCCUPANCYMAPVECTOR_H
 

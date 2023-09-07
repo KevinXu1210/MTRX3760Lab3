@@ -1,3 +1,5 @@
+// Header file for OccupancyMapHash.cpp
+
 #ifndef _OCCUPANCYMAPVECTOR_H
 #define _OCCUPANCYMAPVECTOR_H
 
@@ -7,7 +9,7 @@
 
 // Class to implement a occupancy map using a vector
 class COccupancyMapHash : public COccupancyMapBase
-{
+{ 
 
   public:
     COccupancyMapHash();
